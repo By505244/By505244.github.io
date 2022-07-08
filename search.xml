@@ -12,8 +12,10 @@ b_n\)</span> &#xFF08;<span class="math inline">\(b\)</span> &#x5E8F;&#x5217;&#x6
 <span class="math inline">\(a\)</span> &#x4E00;&#x81F4;&#xFF09;&#x4E0E; <span class="math inline">\(a\)</span> &#x5E8F;&#x5217;&#x76F8;&#x4F3C;&#x3002;</p>
 <p>&#x76F8;&#x4F3C;&#x7684;&#x5B9A;&#x4E49;&#xFF1A;</p>
 <p>&#x4EE4; <span class="math inline">\(\text{MEX}\)</span>
-&#x4E3A;&#x5176;&#x4E2D;&#x6CA1;&#x6709;&#x51FA;&#x73B0;&#x8FC7;&#x7684;&#x6700;&#x5C0F;&#x975E;&#x8D1F;&#x6574;&#x6570;&#xFF08;&#x5982; <span class="math inline">\(\text{MEX}([1,2,3,4,5]=0,\text{MEX}([0,1,2,4,5])=3)\)</span>&#xFF09;&#xFF0C;&#x5219;&#x5BF9;&#x4E8E;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;
-<span class="math inline">\(l,r(1\le l\le r\le n)\)</span> &#x6EE1;&#x8DB3;&#xFF1A;</p>
+&#x4E3A;&#x5176;&#x4E2D;&#x6CA1;&#x6709;&#x51FA;&#x73B0;&#x8FC7;&#x7684;&#x6700;&#x5C0F;&#x975E;&#x8D1F;&#x6574;&#x6570;</p>
+<p>&#xFF08;&#x5982; <span class="math inline">\(\text{MEX}([1,2,3,4,5]=0,\text{MEX}([0,1,2,4,5])=3)\)</span>&#xFF09;</p>
+<p>&#x5219;&#x5BF9;&#x4E8E;&#x4EFB;&#x610F;&#x4E00;&#x4E2A; <span class="math inline">\(l,r(1\le l\le r\le
+n)\)</span> &#x6EE1;&#x8DB3;&#xFF1A;</p>
 <p><span class="math display">\[\text{MEX}([{a_l,a_{l+1}\cdots,a_r}])=\text{MEX}([b_l,b_{l+1}\cdots,b_r])
 \]</span></p>
 <p>&#x5219;&#x79F0; <span class="math inline">\(a\)</span> &#x4E0E; <span class="math inline">\(b\)</span> &#x76F8;&#x4F3C;&#x3002;</p>
