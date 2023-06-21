@@ -18,6 +18,35 @@
       </tags>
   </entry>
   <entry>
+    <title>ssoi2277</title>
+    <url>/oi_blogs/2023/06/21/ssoi2277/</url>
+    <content><![CDATA[<p>Hint&#xFF1A;&#x4EE4; <span class="math inline">\(\mathbb G_i =
+\{\gcd_{j=i}^{r}a_j|j\le r\le n\}\)</span> &#x5219;&#x6709; <span class="math inline">\(|\mathbb G _i|\le \log a_i\)</span>&#x3002;</p>
+<p>&#x8BC1;&#x660E;&#xFF1A;&#x6BCF;&#x4E00;&#x6B21; <span class="math inline">\(\gcd\)</span>
+&#x7684;&#x53D8;&#x5316;&#x53EF;&#x4EE5;&#x7B49;&#x4EF7;&#x4E8E;&#x51CF;&#x5C11;&#x4E00;&#x90E8;&#x5206; <span class="math inline">\(a_i\)</span>
+&#x7684;&#x8D28;&#x56E0;&#x6570;&#xFF0C;&#x51CF;&#x5C11;&#x7684;&#x8FD9;&#x4E00;&#x90E8;&#x5206;&#x8D28;&#x56E0;&#x6570;&#x5BB9;&#x6613;&#x53D1;&#x73B0;&#x662F;&#x4E0D;&#x53EF;&#x9006;&#x7684;&#x3002;&#x800C; <span class="math inline">\(a_i\)</span> &#x81F3;&#x591A;&#x6709; <span class="math inline">\(\log a_i\)</span> &#x4E2A;&#x8D28;&#x56E0;&#x6570;&#xFF0C;&#x6240;&#x4EE5;&#x6709; <span class="math inline">\(|\mathbb G_i \le \log a_i|\)</span>&#x3002;</p>
+<span id="more"></span>
+<hr>
+<p>Hint &#x7684;&#x7ED3;&#x8BBA;&#xFF0C;&#x8BA9;&#x6211;&#x4EEC;&#x5BB9;&#x6613;&#x60F3;&#x5230;&#x4EE4; <span class="math inline">\(g_i \in
+\mathbb G_i\)</span>&#xFF0C;<span class="math inline">\(\text{xor}_{l=i}^r
+a_l\)</span> &#x8868;&#x793A;&#x4ECE; <span class="math inline">\(a_l\)</span> &#x5230; <span class="math inline">\(a_r\)</span> &#x7684;&#x5F02;&#x6216;&#x548C;&#x3002;&#x8BA9;&#x6211;&#x4EEC;&#x67E5;&#x627E;&#x51FA; <span class="math inline">\(\text{xor}_{j=i}^ra_j\times g=k\)</span> &#x4E14; <span class="math inline">\(\gcd_{j=i}^ra_j=g\)</span> &#x4E2D;&#x7684; <span class="math inline">\(i\)</span> &#x4E0E; <span class="math inline">\(r\)</span> &#x7684;&#x503C;&#x5373;&#x4E3A;&#x7B54;&#x6848;&#x3002;</p>
+<hr>
+<p>&#x6211;&#x4EEC;&#x63A5;&#x4E0B;&#x6765;&#x5B9E;&#x73B0;&#x3002;</p>
+<p>&#x5BB9;&#x6613;&#x53D1;&#x73B0;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5BF9; <span class="math inline">\(\gcd_{i=l}^r
+a_i\)</span> &#x8FDB;&#x884C;&#x591A;&#x6B21;&#x8BE2;&#x95EE;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; ST &#x8868;&#x8FDB;&#x884C;&#x4F18;&#x5316;&#x3002;</p>
+<p>&#x8003;&#x8651;&#x5230;&#x96C6;&#x5408; <span class="math inline">\(\mathbb G\)</span>
+&#x7684;&#x5927;&#x5C0F;&#x4E0D;&#x5927;&#xFF0C;&#x4F46;&#x662F;&#x60F3;&#x8981;&#x8FC5;&#x901F;&#x627E;&#x5230;&#x4E0D;&#x540C;&#x7684; <span class="math inline">\(\gcd\)</span>
+&#x7684;&#x503C;&#x4F9D;&#x6B21;&#x904D;&#x5386;&#x5374;&#x5F88;&#x6162;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x5229;&#x7528;&#x500D;&#x589E;&#x8FDB;&#x884C;&#x4F18;&#x5316;&#x3002;</p>
+<p>&#x8BBE;&#x7B2C; <span class="math inline">\(i\)</span> &#x4F4D;&#x7684;&#x524D;&#x7F00;&#x5F02;&#x6216;&#x548C;&#x4F4D; <span class="math inline">\(x_i\)</span>&#xFF0C;&#x5F53; <span class="math inline">\(g_i\)</span> &#x88AB;&#x4F9D;&#x6B21;&#x627E;&#x51FA;&#x540E;&#xFF0C;&#x627E;&#x5230; <span class="math inline">\(x_j=x_i\text{xor}\frac kg(l\le j \le
+n)\)</span>&#x3002;&#x67E5;&#x627E;&#x8FC7;&#x7A0B;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; set&#xFF0C;&#x79BB;&#x6563;&#x5316;&#x7B49;&#x8FDB;&#x884C;&#x4F18;&#x5316;&#x3002;</p>
+<p>&#x4E8E;&#x662F;&#x6211;&#x4EEC;&#x53D1;&#x73B0;&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#x88AB;&#x538B;&#x7F29;&#x81F3; <span class="math inline">\(\mathcal
+O(n\log n)\)</span> &#x4EE5;&#x4E0B;&#xFF0C;&#x4FBF;&#x53EF;&#x901A;&#x8FC7;&#x6B64;&#x9898;&#x3002;</p>
+]]></content>
+      <tags>
+        <tag>gcd</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CF1710A题解</title>
     <url>/oi_blogs/2022/07/25/CF1710A%E9%A2%98%E8%A7%A3/</url>
     <content><![CDATA[<p>&#x7ED3;&#x8BBA;&#x597D;&#x731C;&#xFF0C;&#x8BC1;&#x660E;&#x76F4;&#x63A5;&#x8D77;&#x98DE;&#x3002;&#x5148;&#x7ED9;&#x4E0B;&#x7ED3;&#x8BBA;&#xFF1A;</p>
