@@ -829,6 +829,18 @@ DP
       </tags>
   </entry>
   <entry>
+    <title>ABC126F</title>
+    <url>/oi_blogs/2024/03/26/ABC126F/</url>
+    <content><![CDATA[<p><a href="https://atcoder.jp/contests/abc126/tasks/abc126_f">&#x539F;&#x9898;&#x94FE;&#x63A5;</a></p>
+<h3 id="&#x9898;&#x610F;&#xFF1A;"><a href="#&#x9898;&#x610F;&#xFF1A;" class="headerlink" title="&#x9898;&#x610F;&#xFF1A;"></a>&#x9898;&#x610F;&#xFF1A;</h3><p>&#x7ED9;&#x5B9A; $m,k$&#xFF0C;&#x6784;&#x9020;&#x4E00;&#x4E2A;&#x5E8F;&#x5217; $a$ &#x4F7F;&#x5F97; $[0,2^m-1]$ &#x4E2D;&#x7684;&#x6BCF;&#x4E00;&#x4E2A;&#x6574;&#x6570;&#x6709;&#x4E14;&#x4EC5;&#x6709;&#x51FA;&#x73B0; $2$ &#x6B21;&#x3002;&#x4E14; $\forall i,j$ &#x6EE1;&#x8DB3; $a_i=a_j,i&lt;j$&#xFF0C;&#x6709; $\oplus_{g=i}^{j}a_g=k$&#x3002;&#x65E0;&#x89E3;&#x8F93;&#x51FA; <code>-1</code>&#x3002;</p>
+<h3 id="&#x89E3;&#x6CD5;&#xFF1A;"><a href="#&#x89E3;&#x6CD5;&#xFF1A;" class="headerlink" title="&#x89E3;&#x6CD5;&#xFF1A;"></a>&#x89E3;&#x6CD5;&#xFF1A;</h3><p>&#x6211;&#x4EEC;&#x9700;&#x8981;&#x628A; $[0,2^m-1]$ &#x5206;&#x522B;&#x5212;&#x5206;&#x4E3A; $2$ &#x6BB5;&#x5F02;&#x6216;&#x548C;&#x4E3A; $k$ &#x7684;&#x6BB5; $A,B$&#xFF0C;&#x89C4;&#x5B9A; $A&#x2019;,B&#x2019;$ &#x5206;&#x522B;&#x4E0E;&#x539F;&#x5E8F;&#x5217;&#x7684;&#x987A;&#x5E8F;&#x76F8;&#x53CD;&#xFF0C;&#x6B64;&#x65F6;&#x53EF;&#x4EE5;&#x91C7;&#x7528; $ABA&#x2019;B&#x2019;$ &#x7684;&#x65B9;&#x5F0F;&#x6392;&#x5E03;&#xFF08;&#x56E0;&#x4E3A;&#x65B9;&#x5411;&#x76F8;&#x53CD;&#xFF0C;&#x6240;&#x4EE5; $B$ &#x4E2D;&#x7684;&#x540E; $i$ &#x5143;&#x7D20;&#x548C; $B&#x2019;$ &#x7684;&#x524D; $i$ &#x4E2A;&#x5143;&#x7D20;&#x76F8;&#x540C;&#xFF0C;&#x5BF9;&#x5E94;&#x5143;&#x7D20;&#x76F8;&#x4E92;&#x5F02;&#x6216;&#x76F8;&#x62B5;&#x6D88;&#xFF0C;&#x6240;&#x4EE5;&#x6B64;&#x65F6; $B$ &#x4E2D;&#x7684;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x5230; $B&#x2019;$ &#x7684;&#x5BF9;&#x5E94;&#x4F4D;&#x7F6E;&#x5F02;&#x6216;&#x548C;&#x4E3A; $A&#x2019;=k$&#xFF09;&#x3002;</p>
+<p>&#x5BB9;&#x6613;&#x53D1;&#x73B0;&#x5F53; $m &gt;1$ &#x65F6;&#xFF0C;$\oplus_{i=0}^{2^m-1}i=0$&#xFF08;$\oplus$ &#x8868;&#x793A;&#x5F02;&#x6216;&#x548C;&#xFF09;&#xFF0C;&#x90A3;&#x4E48;&#x6211;&#x4EEC;&#x628A; $k$ &#x63D0;&#x53D6;&#x51FA;&#x6765;&#x4F5C;&#x4E3A; $A$ &#x5E8F;&#x5217;&#xFF0C;&#x628A;&#x5269;&#x4F59;&#x7684;&#x6570;&#x4F5C; $B$ &#x6570;&#x5217;&#xFF0C;&#x5219; $B$ &#x5E8F;&#x5217;&#x6B64;&#x65F6;&#x7684;&#x5F02;&#x6216;&#x548C;&#x4E5F;&#x4E3A; $k$&#x3002;&#x5F53; $m=1$ &#x65F6;&#x7279;&#x5224;&#x8F93;&#x51FA;&#x65B9;&#x6848;&#x5373;&#x53EF;&#x3002;</p>
+]]></content>
+      <tags>
+        <tag>构造</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>P1849_[USACO12MAR]Tractor_S题解</title>
     <url>/oi_blogs/2022/04/05/P1849-USACO12MAR-Tractor-S%E9%A2%98%E8%A7%A3/</url>
     <content><![CDATA[<p><a href="https://www.luogu.com.cn/problem/P1849">&#x9898;&#x76EE;&#x4F20;&#x9001;&#x95E8;</a></p>
