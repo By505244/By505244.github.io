@@ -544,7 +544,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-12-03 09:57:13" itemprop="dateModified" datetime="2023-12-03T09:57:13+08:00">2023-12-03</time>
+      <time title="修改时间：2024-04-23 22:29:35" itemprop="dateModified" datetime="2024-04-23T22:29:35+08:00">2024-04-23</time>
     </span>
 
   
@@ -554,7 +554,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>2.4k</span>
+      <span>2.3k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -572,9 +572,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p> <a target="_blank" rel="noopener" href="https://codeforces.com/contest/1709/problem/D">&#x539F;&#x9898;&#x94FE;&#x63A5;</a></p>
+          <p><a target="_blank" rel="noopener" href="https://codeforces.com/contest/1709/problem/D">&#x539F;&#x9898;&#x94FE;&#x63A5;</a></p>
 <p><del>&#x611F;&#x89C9;&#x53EF;&#x80FD;&#x662F;&#x6700;&#x7B80;&#x5355;&#xFF08;&#xFF1F;&#xFF09;&#x7684;2D&#x5427;&#xFF0C;&#x6CA1;&#x5565;&#x601D;&#x7EF4;&#x96BE;&#x5EA6;</del></p>
-<h3 id="&#x9898;&#x610F;&#xFF1A;"><a href="#&#x9898;&#x610F;&#xFF1A;" class="headerlink" title="&#x9898;&#x610F;&#xFF1A;"></a>&#x9898;&#x610F;&#xFF1A;</h3><p>&#x673A;&#x5668;&#x4EBA;&#x5728;&#x4E00;&#x4E2A; $n\times m$ &#x7684;&#x5730;&#x56FE;&#x4E0A;&#x884C;&#x9A76;&#x3002;&#x4F46;&#x8FD9;&#x4E2A;&#x5730;&#x56FE;&#x7B2C; $j$ &#x5217;&#x7684;&#x524D; $a_j$ &#x884C;&#x6709;&#x969C;&#x788D;&#x7269;&#x906E;&#x6321;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x64CD;&#x7EB5;&#x8FD9;&#x4E2A;&#x673A;&#x5668;&#x4EBA;&#x4E0A;&#x4E0B;&#x5DE6;&#x53F3;&#x79FB;&#x52A8;&#x3002;&#x4F46;&#x662F;&#xFF0C;&#x8FD9;&#x4E2A;&#x673A;&#x5668;&#x4EBA;&#x662F;&#x574F;&#x7684;&#xFF0C;&#x4ED6;&#x4F1A;&#x628A;&#x6240;&#x6709;&#x547D;&#x4EE4;&#x91CD;&#x590D;&#x6267;&#x884C; $k$ &#x6B21;&#x3002;&#x6BD4;&#x5982;&#x4F60;&#x8BA9;&#x4ED6;&#x5411;&#x4E0B;&#x79FB;&#x52A8;&#x4E00;&#x683C;&#xFF0C;&#x673A;&#x5668;&#x4EBA;&#x4F1A;&#x79FB;&#x52A8; $k$ &#x683C;&#x3002;&#x73B0;&#x5728;&#x7ED9;&#x5B9A;&#x8D77;&#x59CB;&#x5750;&#x6807; $(x_s,y_s)$ &#x548C;&#x7EC8;&#x70B9;&#x5750;&#x6807; $(s_f,y_f)$&#xFF08;&#x4FDD;&#x8BC1;&#x5750;&#x6807;&#x4E0A;&#x4E00;&#x5B9A;&#x6CA1;&#x6709;&#x969C;&#x788D;&#x7269;&#xFF09;&#xFF0C;&#x6C42;&#x662F;&#x5426;&#x80FD;&#x5230;&#x8FBE;&#x3002;</p>
+<p>upd:20240423 &#x4FEE;&#x590D;&#x683C;&#x5F0F;&#x9519;&#x8BEF;&#x3002;</p>
+<h3 id="&#x9898;&#x610F;">&#x9898;&#x610F;&#xFF1A;</h3>
+<p>&#x673A;&#x5668;&#x4EBA;&#x5728;&#x4E00;&#x4E2A; <span class="math inline">\(n\times m\)</span>
+&#x7684;&#x5730;&#x56FE;&#x4E0A;&#x884C;&#x9A76;&#x3002;&#x4F46;&#x8FD9;&#x4E2A;&#x5730;&#x56FE;&#x7B2C; <span class="math inline">\(j\)</span> &#x5217;&#x7684;&#x524D;
+<span class="math inline">\(a_j\)</span>
+&#x884C;&#x6709;&#x969C;&#x788D;&#x7269;&#x906E;&#x6321;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x64CD;&#x7EB5;&#x8FD9;&#x4E2A;&#x673A;&#x5668;&#x4EBA;&#x4E0A;&#x4E0B;&#x5DE6;&#x53F3;&#x79FB;&#x52A8;&#x3002;&#x4F46;&#x662F;&#xFF0C;&#x8FD9;&#x4E2A;&#x673A;&#x5668;&#x4EBA;&#x662F;&#x574F;&#x7684;&#xFF0C;&#x4ED6;&#x4F1A;&#x628A;&#x6240;&#x6709;&#x547D;&#x4EE4;&#x91CD;&#x590D;&#x6267;&#x884C;
+<span class="math inline">\(k\)</span>
+&#x6B21;&#x3002;&#x6BD4;&#x5982;&#x4F60;&#x8BA9;&#x4ED6;&#x5411;&#x4E0B;&#x79FB;&#x52A8;&#x4E00;&#x683C;&#xFF0C;&#x673A;&#x5668;&#x4EBA;&#x4F1A;&#x79FB;&#x52A8; <span class="math inline">\(k\)</span> &#x683C;&#x3002;&#x73B0;&#x5728;&#x7ED9;&#x5B9A;&#x8D77;&#x59CB;&#x5750;&#x6807; <span class="math inline">\((x_s,y_s)\)</span> &#x548C;&#x7EC8;&#x70B9;&#x5750;&#x6807; <span class="math inline">\((s_f,y_f)\)</span>&#xFF08;&#x4FDD;&#x8BC1;&#x5750;&#x6807;&#x4E0A;&#x4E00;&#x5B9A;&#x6CA1;&#x6709;&#x969C;&#x788D;&#x7269;&#xFF09;&#xFF0C;&#x6C42;&#x662F;&#x5426;&#x80FD;&#x5230;&#x8FBE;&#x3002;</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/oi_blogs/2022/07/23/CF1709D%E9%A2%98%E8%A7%A3/#more" rel="contents">
