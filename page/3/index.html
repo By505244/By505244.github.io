@@ -156,7 +156,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/oi_blogs/archives/">
-          <span class="site-state-item-count">21</span>
+          <span class="site-state-item-count">22</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -201,6 +201,100 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://by505244.github.io/oi_blogs/2024/03/26/ABC126F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/oi_blogs/images/avatar.gif">
+      <meta itemprop="name" content="-">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="blog">
+      <meta itemprop="description" content="nothing">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/oi_blogs/2024/03/26/ABC126F/" class="post-title-link" itemprop="url">ABC126F</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2024-03-26 17:27:16" itemprop="dateCreated datePublished" datetime="2024-03-26T17:27:16+08:00">2024-03-26</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-04-23 22:18:35" itemprop="dateModified" datetime="2024-04-23T22:18:35+08:00">2024-04-23</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>445</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><a target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc126/tasks/abc126_f">&#x539F;&#x9898;&#x94FE;&#x63A5;</a></p>
+<h3 id="&#x9898;&#x610F;&#xFF1A;"><a href="#&#x9898;&#x610F;&#xFF1A;" class="headerlink" title="&#x9898;&#x610F;&#xFF1A;"></a>&#x9898;&#x610F;&#xFF1A;</h3><p>&#x7ED9;&#x5B9A; $m,k$&#xFF0C;&#x6784;&#x9020;&#x4E00;&#x4E2A;&#x5E8F;&#x5217; $a$ &#x4F7F;&#x5F97; $[0,2^m-1]$ &#x4E2D;&#x7684;&#x6BCF;&#x4E00;&#x4E2A;&#x6574;&#x6570;&#x6709;&#x4E14;&#x4EC5;&#x6709;&#x51FA;&#x73B0; $2$ &#x6B21;&#x3002;&#x4E14; $\forall i,j$ &#x6EE1;&#x8DB3; $a_i=a_j,i&lt;j$&#xFF0C;&#x6709; $\oplus_{g=i}^{j}a_g=k$&#x3002;&#x65E0;&#x89E3;&#x8F93;&#x51FA; <code>-1</code>&#x3002;</p>
+<h3 id="&#x89E3;&#x6CD5;&#xFF1A;"><a href="#&#x89E3;&#x6CD5;&#xFF1A;" class="headerlink" title="&#x89E3;&#x6CD5;&#xFF1A;"></a>&#x89E3;&#x6CD5;&#xFF1A;</h3><p>&#x6211;&#x4EEC;&#x9700;&#x8981;&#x628A; $[0,2^m-1]$ &#x5206;&#x522B;&#x5212;&#x5206;&#x4E3A; $2$ &#x6BB5;&#x5F02;&#x6216;&#x548C;&#x4E3A; $k$ &#x7684;&#x6BB5; $A,B$&#xFF0C;&#x89C4;&#x5B9A; $A&#x2019;,B&#x2019;$ &#x5206;&#x522B;&#x4E0E;&#x539F;&#x5E8F;&#x5217;&#x7684;&#x987A;&#x5E8F;&#x76F8;&#x53CD;&#xFF0C;&#x6B64;&#x65F6;&#x53EF;&#x4EE5;&#x91C7;&#x7528; $ABA&#x2019;B&#x2019;$ &#x7684;&#x65B9;&#x5F0F;&#x6392;&#x5E03;&#xFF08;&#x56E0;&#x4E3A;&#x65B9;&#x5411;&#x76F8;&#x53CD;&#xFF0C;&#x6240;&#x4EE5; $B$ &#x4E2D;&#x7684;&#x540E; $i$ &#x5143;&#x7D20;&#x548C; $B&#x2019;$ &#x7684;&#x524D; $i$ &#x4E2A;&#x5143;&#x7D20;&#x76F8;&#x540C;&#xFF0C;&#x5BF9;&#x5E94;&#x5143;&#x7D20;&#x76F8;&#x4E92;&#x5F02;&#x6216;&#x76F8;&#x62B5;&#x6D88;&#xFF0C;&#x6240;&#x4EE5;&#x6B64;&#x65F6; $B$ &#x4E2D;&#x7684;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x5230; $B&#x2019;$ &#x7684;&#x5BF9;&#x5E94;&#x4F4D;&#x7F6E;&#x5F02;&#x6216;&#x548C;&#x4E3A; $A&#x2019;=k$&#xFF09;&#x3002;</p>
+<p>&#x5BB9;&#x6613;&#x53D1;&#x73B0;&#x5F53; $m &gt;1$ &#x65F6;&#xFF0C;$\oplus_{i=0}^{2^m-1}i=0$&#xFF08;$\oplus$ &#x8868;&#x793A;&#x5F02;&#x6216;&#x548C;&#xFF09;&#xFF0C;&#x90A3;&#x4E48;&#x6211;&#x4EEC;&#x628A; $k$ &#x63D0;&#x53D6;&#x51FA;&#x6765;&#x4F5C;&#x4E3A; $A$ &#x5E8F;&#x5217;&#xFF0C;&#x628A;&#x5269;&#x4F59;&#x7684;&#x6570;&#x4F5C; $B$ &#x6570;&#x5217;&#xFF0C;&#x5219; $B$ &#x5E8F;&#x5217;&#x6B64;&#x65F6;&#x7684;&#x5F02;&#x6216;&#x548C;&#x4E5F;&#x4E3A; $k$&#x3002;&#x5F53; $m=1$ &#x65F6;&#x7279;&#x5224;&#x8F93;&#x51FA;&#x65B9;&#x6848;&#x5373;&#x53EF;&#x3002;</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -326,13 +420,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">28k</span>
+    <span title="站点总字数">30k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">51 分钟</span>
+    <span title="站点阅读时长">54 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
